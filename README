@@ -1,0 +1,5 @@
+Lazy script to compile c++, run it, then delete the executable
+
+To setup:
+c++ crd.cpp -o crd
+mv crd /usr/local/bin
