@@ -18,7 +18,7 @@ int main(int argc, char* argv[]){
 
   FILE* pipe = popen(compile.c_str(), "w");
 
-  chrono::milliseconds timespan(1000);
+  chrono::milliseconds timespan(1500);
   this_thread::sleep_for(timespan);
 
   if (argc > 2) {
